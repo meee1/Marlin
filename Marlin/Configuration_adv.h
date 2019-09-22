@@ -1354,7 +1354,7 @@
  *
  * See http://marlinfw.org/docs/configuration/laser_spindle.html for more config details.
  */
-//#define SPINDLE_LASER_ENABLE
+#define SPINDLE_LASER_ENABLE
 #if ENABLED(SPINDLE_LASER_ENABLE)
 
   #define SPINDLE_LASER_ENABLE_INVERT   false  // set to "true" if the on/off function is reversed
